@@ -19,8 +19,8 @@ class Program
         Resume myResume = new Resume();
         myResume._name = "Damen Anderson";
 
-        myResume._jobs.Add(jobs1);
-        myResume._jobs.Add(jobs2);
+        myResume._jobs.Add(job1);
+        myResume._jobs.Add(job2);
 
         myResume.Display();
     }
