@@ -10,7 +10,7 @@ class Program
         job1._startYear = 2024;
         job1._endYear = 2028;
 
-        job1 job2 = new Job();
+        Job job2 = new Job();
         job2._company = "Apple";
         job1._jobTitle = "Software Engineer";
         job1._startYear = 2020;
