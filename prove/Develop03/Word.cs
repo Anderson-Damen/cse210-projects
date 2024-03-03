@@ -1,33 +1,16 @@
-using System.Runtime.CompilerServices;
+using System;
 
-public class Word()
+public class Word
 {
     private string _wordText;
     private bool _visible = true;
 
-    public Word()
+    public Word(string text)
     {
+        _wordText = text;
     }
-
-    public Word(string wordText)
+    public string GetWordText()
     {
-
-    }
-    private GetWordText(string _wordText)
-    {
-
-    }
-    private SetWordText()
-    {
-
-    }
-    public HideWord()
-    {
-        foreach (char letter in _wordText)
-        {
-            letter = '_';
-        }
-        
-        _wordText = letter;
-    }
+        return _wordText;
+    } 
 }

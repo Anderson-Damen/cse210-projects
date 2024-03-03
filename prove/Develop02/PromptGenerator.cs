@@ -1,6 +1,6 @@
 using System;
 
-public class PromptGenerator
+class PromptGenerator
 {
     public string[] _prompts = new string[]
     {
